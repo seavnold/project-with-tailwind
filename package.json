@@ -1,0 +1,17 @@
+{
+  "name": "project-with-tailwind",
+  "version": "1.0.0",
+  "description": "a freelance project with tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "Arnold Sulana :)",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.9.1"
+  }
+}
