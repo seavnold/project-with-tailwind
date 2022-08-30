@@ -10,7 +10,11 @@
 
 @layer components {
     .menus a, .logout {
-        @apply flex items-center p-6 text-lg font-semibold hover:bg-green-900 hover:text-white hover:border-solid hover:border-l-2 hover:border-l-white border-green-800;
+        @apply flex items-center p-6 text-lg font-semibold hover:bg-green-900 hover:border-solid hover:border-l-2 hover:border-l-white;
+    }
+
+    .menus li.active {
+        @apply bg-green-900 text-white border-solid border-l-2 border-l-white hover:border-none;
     }
 
     .menus span, .logout span {
