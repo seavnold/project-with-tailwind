@@ -1,4 +1,4 @@
-<div class="relative z-0 lg:flex-grow">
+<div class="relative z-0 lg:flex-grow h-[75px]">
     <header class="h-[75px] bg-green-700 border-solid border border-green-700 lg:border-l-white border-b-white text-white">
         <div class="flex items-center justify-between h-full">
             <div class="flex items-center h-full ml-3">

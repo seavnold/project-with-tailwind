@@ -16,13 +16,13 @@
     <div class="flex flex-col items-start justify-between h-[calc(100vh_-_73px)] w-full">
         <ul class="menus mt-8 overflow-y-scroll scroll-smooth h-[610px] scrollbar w-full">
             <li>
-                <a href="#">
+                <a href="dashboard.php">
                     <i class='bx bxs-dashboard'></i>
                     <span>Dashboard</span>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="users.php">
                     <i class='bx bxs-user-account'></i>
                     <span>Users</span>
                 </a>

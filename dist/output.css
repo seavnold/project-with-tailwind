@@ -664,6 +664,10 @@ body {
   height: 610px;
 }
 
+.h-\[calc\(100vh_-_75px\)\] {
+  height: calc(100vh - 75px);
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -730,6 +734,10 @@ body {
   align-items: center;
 }
 
+.justify-start {
+  justify-content: flex-start;
+}
+
 .justify-end {
   justify-content: flex-end;
 }
@@ -771,6 +779,11 @@ body {
 .border-green-700 {
   --tw-border-opacity: 1;
   border-color: rgb(21 128 61 / var(--tw-border-opacity));
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .border-b-white {
