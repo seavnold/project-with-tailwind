@@ -22,7 +22,7 @@
         <?php include_once "../components/header.php"; ?>
 
         <!-- Page -->
-        <div class="h-[calc(100vh_-_75px)]">Dashboard</div>
+        <div class="h-[calc(100vh_-_75px)]">Users</div>
     </Main>
 
     <!-- Script -->
