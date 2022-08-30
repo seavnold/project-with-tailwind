@@ -7,3 +7,37 @@
         @apply bg-gray-300;
     }
 }
+
+@layer components {
+    .menus a, .logout {
+        @apply flex items-center p-6 text-lg font-semibold hover:bg-green-900 hover:text-white hover:border-solid hover:border-l-2 hover:border-l-white border-green-800;
+    }
+
+    .menus span, .logout span {
+        @apply pl-3;
+    }
+
+    .logout {
+        @apply w-full;
+    }
+}
+
+@layer utilities {
+    .scrollbar::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+
+    .scrollbar::-webkit-scrollbar-track {
+        background: #166534;
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb {
+        background: #14532d;
+        border: 2px solid #14532d;
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb:hover {
+        background: #14532d;
+    }
+}
